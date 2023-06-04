@@ -12,9 +12,9 @@ Our goal was to leverage the available data, including transaction history, cust
 
 The provided data includes:
 
-    - Transaction data: Information about customer purchases, including customer ID, article ID, and timestamp.
-    - Customer metadata: Attributes of customers, such as age, gender, and location.
-    - Product metadata: Various details about the products, including garment type, product description, and images.
+- Transaction data: Information about customer purchases, including customer ID, article ID, and timestamp.
+- Customer metadata: Attributes of customers, such as age, gender, and location.
+- Product metadata: Various details about the products, including garment type, product description, and images.
 
 It was up to us to explore and utilize the available data to extract meaningful features and develop recommendation models.
 
@@ -22,10 +22,10 @@ It was up to us to explore and utilize the available data to extract meaningful 
 
 We employed a combination of different algorithms and techniques to tackle the product recommendation problem. The following approaches were implemented and experimented with:
 
-    - Alternating Least Squares (ALS): Collaborative filtering algorithm for generating personalized recommendations based on user-item interactions.
-    - Graph Neural Network (GNN): Utilizing graph-based models to capture complex relationships between customers and products.
-    - Recurrent Neural Network (RNN): Sequential models to capture temporal patterns in customer behavior for making personalized recommendations.
-    - Gradient Boosting: Ensemble learning technique combining multiple weak models to create powerful recommendation models.
+- Alternating Least Squares (ALS): Collaborative filtering algorithm for generating personalized recommendations based on user-item interactions.
+- Graph Neural Network (GNN): Utilizing graph-based models to capture complex relationships between customers and products.
+- Recurrent Neural Network (RNN): Sequential models to capture temporal patterns in customer behavior for making personalized recommendations.
+- Gradient Boosting: Ensemble learning technique combining multiple weak models to create powerful recommendation models.
 
 We thoroughly evaluated and fine-tuned each approach to optimize the MAP@12 metric and improve the accuracy of our predictions.
 
@@ -35,7 +35,8 @@ Our team invested considerable effort in developing effective product recommenda
 
 We hope that our work serves as a valuable contribution to the field of product recommendation and provides insights for improving the shopping experience
 
-Authors:
+## Authors
+
 - Julien Da Silva
 - Abel Mebkhout
 - Jean Trebuchet
